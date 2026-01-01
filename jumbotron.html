@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Course Promotion</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-gray-100">
+
+  <!-- Jumbotron / Hero Section -->
+  <section class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white">
+    <div class="max-w-7xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center gap-10">
+
+      <!-- Left Content -->
+      <div class="md:w-1/2">
+        <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
+          Master Web Development 🚀
+        </h1>
+
+        <p class="text-lg mb-6 text-indigo-100">
+          Learn HTML, CSS, JavaScript & modern frameworks from scratch.
+          Build real-world projects and become job-ready.
+        </p>
+
+        <!-- Highlights -->
+        <ul class="mb-6 space-y-2">
+          <li>✅ Beginner Friendly</li>
+          <li>✅ Live Projects</li>
+          <li>✅ Certificate Included</li>
+        </ul>
+
+        <!-- Buttons -->
+        <div class="flex gap-4">
+          <button onclick="enrollNow()"
+            class="bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition">
+            Enroll Now
+          </button>
+
+          <button onclick="watchIntro()"
+            class="border border-white px-6 py-3 rounded-lg hover:bg-white hover:text-indigo-600 transition">
+            Watch Intro
+          </button>
+        </div>
+      </div>
+
+      <!-- Right Image -->
+      <div class="md:w-1/2">
+        <img src="https://img.graphicsurf.com/2020/06/Web-development-courses-flat-design-600x400.jpg"
+             alt="Course Illustration"
+             class="w-full max-w-md mx-auto">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 text-gray-600">
+    © 2025 Online Learning Platform
+  </footer>
+
+  <script src="jumbotron.js"></script>
+</body>
+</html>
